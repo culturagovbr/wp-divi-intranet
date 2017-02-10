@@ -618,3 +618,42 @@ input.searchField { -moz-appearance: none; }
 .home .feed-date {
   display: none;
 }
+
+/*Ajsutes - 10/02/2017*/
+.container.clearfix.et_menu_container {
+    max-width: 1072px;
+}
+.banner-home {
+    display: block;
+    width: 100%;
+    padding-bottom: 35px;
+    border-radius: 16px;
+    min-height: 133px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    margin-top: -23px;
+    min-width: 100px;
+}
+h4.widgettitle {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 13px;
+    font-size: 24px;
+    margin-left: -31px;
+    padding-left: 30px;
+    display: block;
+    border-bottom: 1px #2f678a solid;
+}
+.banner-home:hover {
+    padding: 0.7em;
+}
+.banner-lateral {
+    width: 109%;
+    margin-left: 0;
+    margin-right: 0;
+    display: block !important;
+    position: relative;
+    border-radius: 13px;
+    margin-bottom: -28px !important;
+    top: -73px;
+}
