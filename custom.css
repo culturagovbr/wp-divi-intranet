@@ -1,25 +1,17 @@
 #header {
     padding: 14px 0 0 0;
     background-color: #34378F;
-    height: 230px;
-    /* Old browsers */
+    height: 178px;
     background-color: #0A5517;
     background-image: -moz-radial-gradient(center, ellipse cover, #1074BC 1%, #34378F 100%);
-    /* FF3.6+ */
     background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#1074BC), color-stop(100%, #34378F));
-    /* Chrome,Safari4+ */
     background-image: -webkit-radial-gradient(center, ellipse cover, #1074BC 1%, #34378F 100%);
-    /* Chrome10+,Safari5.1+ */
     background-image: -o-radial-gradient(center, ellipse cover, #1074BC 1%, #34378F 100%);
-    /* Opera 12+ */
     background-image: -ms-radial-gradient(center, ellipse cover, #1074BC 1%, #34378F 100%);
-    /* IE10+ */
     background-image: radial-gradient(ellipse at center, #1074BC 1%, #34378F 100%);
     color: #fff;
-    /* IE6-9 fallback on horizontal gradient */
-    filter:progid: DXImageTransform.Microsoft.gradient( startColorstr="#1074BC", endColorstr="#34378F",GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1074BC", endColorstr="#34378F",GradientType=1);
 }
-
 /* Menu de Acessibilidade
    ========================================================================== */
 
@@ -656,4 +648,41 @@ h4.widgettitle {
     border-radius: 13px;
     margin-bottom: -28px !important;
     top: -73px;
+}
+.et_pb_sidebar_0 {
+    background-color: #38759A;
+    /* top: -10px; */
+    margin-top: -60px;
+    /* margin-bottom: 16px; */
+    z-index: 2;
+    position: absolute;
+    /* top: -114px; */
+    left: 0px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    width: 244px;
+}
+#main-content > .container {
+    max-width: 1073px;
+}
+
+#main-content .entry-content {
+    max-width: 1349px;
+    margin: -35px auto;
+}
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
+    padding-top: 10px;
+}
+#top-menu a {
+    color: #FFFFFF;
+    padding-bottom: 20px !important;
+}
+.et_header_style_left #et-top-navigation, .et_header_style_split #et-top-navigation {
+    padding-top: 21px;
+}
+#social-icons li a {
+    border: none;
+    padding: 0 0 0 5px;
+    background-image: none;
 }
