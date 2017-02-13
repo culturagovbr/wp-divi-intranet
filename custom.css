@@ -750,7 +750,14 @@ h4.widgettitle {
 #social-icons li a[title="Slideshare"] { background-position:  45px 0; }
 #social-icons li a[title="Soundcloud"] { background-position: 20px 0; }
 #social-icons li a[title="Rss"] { background-position: 145px -25px; }
-#social-icons li a[title="Instagram"] { background-position:  69px -49px; }
+#social-icons li a[title="Instagram"] {
+    background-position: 0;
+    background-image: url(http://intranet.base-wp.cultura.gov.br/wp-content/themes/wp-divi-intranet/img/instagram-logo.png);
+    background-size: 108%;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    height: 22px;
+}
 #social-icons li a[title="Tumblr"] { background-position: 96px -49px; }
 
 
@@ -861,6 +868,7 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
         display: block;
     }
 }
+
 /*Responsivo*/
 @media (max-width: 980px){
     .home .et_pb_sidebar_0 {
