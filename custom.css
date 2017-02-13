@@ -2,7 +2,6 @@
     padding: 14px 0 0 0;
     background-color: #34378F;
     height: 178px;
-    background-color: #0A5517;
     background-image: -moz-radial-gradient(center, ellipse cover, #1074BC 1%, #34378F 100%);
     background-image: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(1%,#1074BC), color-stop(100%, #34378F));
     background-image: -webkit-radial-gradient(center, ellipse cover, #1074BC 1%, #34378F 100%);
@@ -15,9 +14,6 @@
 /* Menu de Acessibilidade
    ========================================================================== */
 
-#accessibility {
-
-}
 
 #accessibility a {
     color: #fff;
@@ -150,7 +146,6 @@
 
 #portal-description {
     bottom: 8px;
-    text-transform: nome;
     font-size: 1.2em;
 }
 
@@ -395,26 +390,19 @@ ul {
     top: 10px;
     right: 32px;
     bottom: 11px;
-    width: 199px;
     height: 40px;
     margin: auto;
-    border: none;
     color: #333;
     background: #f9f9f9;
     float: left;
     display: block;
     margin-right: 4.34783%;   
-    display: block;
     background-color: #ffffff;
-    padding: 10px;
     border-radius: 4px;
     border-top: 2px solid #d5d5d5;
     border-bottom: 0;
     border-left: 2px solid #d5d5d5;
-    border-right: 0;
     box-shadow: inset -2px -2px 5px -1px #f0f2f1;
-    font-size: 0.8125em;
-    
     padding: 0.3em 0.35em;
     width: 186px;
     border: none;
@@ -754,7 +742,6 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required 
     margin-bottom: 0;
 }
 form.wpcf7-form textarea {
-    padding: 4px;
     display: block;
     padding: 16px;
     margin-top: 10px;
@@ -773,4 +760,43 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     text-transform: uppercase;
     border: 0;
     border-radius: 4px;
+}
+.et_pb_column_3_4 .et_pb_row_inner {
+    padding: 30px 0 0;
+}
+.home .et_pb_text h1 {
+    color: #38759a;
+    background: #eeeff1;
+    border-top: 2px solid;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 24px;
+}
+
+@media (min-width: 981px){
+
+    .home .et_pb_gutters3 .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_1_4, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_1_4, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_4, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_grid_item, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n), .et_pb_gutters3 .et_pb_column_3_4 .et_pb_widget, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product:nth-child(4n), .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n), .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_widget, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product:nth-child(4n), .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_grid_item, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n), .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_widget, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product:nth-child(4n), .et_pb_gutters3.et_left_sidebar.woocommerce-page ul.products li.product, .et_pb_gutters3.et_right_sidebar.woocommerce-page ul.products li.product {
+    width: 30.353%;
+    margin-right: 4.37%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+    .home .et_pb_gutters3 .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_3_8, .et_pb_gutters3.et_pb_row > .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_3_8, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_3_8 {
+    width: 47.8%;
+    margin-right: 34px;
+    }
+    .home  .et_pb_gutters3 .et_pb_column_1_4 .et_pb_blog_grid .column.size-1of1 .et_pb_post {
+    margin-bottom: 26.348%;
+    height: 355px;
+    display: block;
+    }
+    .home .post-content {
+        max-height: 72px;
+        overflow: hidden;
+        min-height: 96px;
+        display: block;
+    }
 }
