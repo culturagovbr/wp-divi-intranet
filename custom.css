@@ -928,3 +928,8 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     width: 100%;
 }
 }
+
+
+ul#portal-siteactions {
+    display: none ;
+}
