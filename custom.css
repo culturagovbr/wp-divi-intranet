@@ -521,8 +521,8 @@ dl.nav-tree dt {
 
 
 #header input.searchButton {
-    background: url(/wp-content/themes/wp-divi-intranet/img/sprite.png);
-    background-position: 0px 3px;
+    background: url(/wp-content/themes/wp-divi-intranet/img/sprite.png) !important;
+    background-position: 0px 3px !important;
 }
 
 
