@@ -807,7 +807,7 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 }
 .home .et_pb_row_inner.et_pb_row_inner_2.et_pb_row_1-4_1-4_1-4 {
     position: relative;
-    top: -66px;
+    top: -28px;
     margin-bottom: 0;
 }
 .servicos {
@@ -826,7 +826,9 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     /* overflow: hidden; */
     position: inherit;
 }
-
+.et_pb_container.clearfix {
+    min-height: 366px !important;
+}
 .container, .et_pb_row, .et_pb_slider .et_pb_container, .et_pb_fullwidth_section .et_pb_title_container, .et_pb_fullwidth_section .et_pb_title_featured_container, .et_pb_fullwidth_header:not(.et_pb_fullscreen) .et_pb_fullwidth_header_container {
     max-width: 1060px;
 }
