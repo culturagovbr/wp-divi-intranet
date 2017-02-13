@@ -618,8 +618,18 @@ input.searchField { -moz-appearance: none; }
     margin-top: -23px;
     min-width: 100px;
 }
-h4.widgettitle {
+.home h4.widgettitle {
     color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 13px;
+    font-size: 24px;
+    margin-left: -31px;
+    padding-left: 30px;
+    display: block;
+    border-bottom: 1px #2f678a solid;
+}
+h4.widgettitle {
+    color: #2f678a;
     text-transform: uppercase;
     padding-top: 13px;
     font-size: 24px;
