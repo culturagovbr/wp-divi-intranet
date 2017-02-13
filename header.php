@@ -130,6 +130,11 @@
                             <img src="/wp-content/uploads/sites/2/2016/08/icone_home_rss.png" alt="Flickr" />
                         </a>
                     </li>
+                    <li>
+                        <a href="https://www.instagram.com/culturagovbr/?hl=pt-br" title="Instagram">
+                            <img src="/wp-content/uploads/sites/2/2016/08/icone_home_rss.png" alt="Instagram"  />
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
