@@ -75,7 +75,7 @@
 .item-central .link-aplicativos,
 .item-central .link-dadosabertos,
     /* icone do botão de busca */
-#header input.searchButton { background-image: url("../img/sprite.png"); }
+
 /* icone do botão de relatar erros */
 #content .relatar-erros a { background: url("../img/icon-reportar-erros.png") no-repeat; }
 
@@ -297,9 +297,6 @@ input.searchField { -moz-appearance: none; }
     text-indent: -2000px;
 }
 
-#header input.searchButton {
-    background: url("../img/search-button.gif") no-repeat 3px 2px #FFFFFF;
-}
 
 #LSResult {
     z-index: 1;
@@ -520,10 +517,11 @@ dl.nav-tree dt {
     text-indent: -2000px;
 }
 
-#header input.searchButton {
-    background: url(http://intranet.base-wp.cultura.gov.br//wp-content/themes/wp-divi-intranet/img/sprite.png);
-}
 
+#header input.searchButton {
+    background: url(/wp-content/themes/wp-divi-intranet/img/sprite.png);
+    background-position: 0px 3px;
+}
 
 
 
@@ -777,18 +775,18 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 
 @media (min-width: 981px){
 
-    .home .et_pb_gutters3 .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_1_4, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_1_4, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_4, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_grid_item, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n), .et_pb_gutters3 .et_pb_column_3_4 .et_pb_widget, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product:nth-child(4n), .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n), .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_widget, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product:nth-child(4n), .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_grid_item, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n), .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_widget, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product:nth-child(4n), .et_pb_gutters3.et_left_sidebar.woocommerce-page ul.products li.product, .et_pb_gutters3.et_right_sidebar.woocommerce-page ul.products li.product {
+    .home.et_pb_gutters3 .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_1_4, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_1_4, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_4, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_grid_item, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n), .et_pb_gutters3 .et_pb_column_3_4 .et_pb_widget, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3 .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product:nth-child(4n), .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n), .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_widget, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3.et_pb_row .et_pb_column_3_4 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product:nth-child(4n), .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_grid_item, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_column_4_4 .et_pb_grid_item:nth-child(4n), .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_widget, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_4_4 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product:nth-child(4n), .et_pb_gutters3.et_left_sidebar.woocommerce-page ul.products li.product, .et_pb_gutters3.et_right_sidebar.woocommerce-page ul.products li.product {
     width: 30.353%;
     margin-right: 4.37%;
     margin-top: 0px;
     margin-bottom: 0px;
     }
 
-    .home .et_pb_gutters3 .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_3_8, .et_pb_gutters3.et_pb_row > .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_3_8, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_3_8 {
+    .home.et_pb_gutters3 .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_3_8, .et_pb_gutters3.et_pb_row > .et_pb_column_3_4 .et_pb_row_inner .et_pb_column_3_8, .et_section_specialty .et_pb_row .et_pb_column_3_4 .et_pb_gutters3.et_pb_row_inner .et_pb_column_3_8 {
     width: 47.8%;
     margin-right: 34px;
     }
-    .home  .et_pb_gutters3 .et_pb_column_1_4 .et_pb_blog_grid .column.size-1of1 .et_pb_post {
+    .home.et_pb_gutters3 .et_pb_column_1_4 .et_pb_blog_grid .column.size-1of1 .et_pb_post {
     margin-bottom: 26.348%;
     height: 355px;
     display: block;
