@@ -45,19 +45,19 @@
                 </a>
             </li>
             <li>
-                <a accesskey="2" href="#anavigation" id="link-navegacao">
+                <a accesskey="2" href="#main-header" id="link-navegacao">
                     Ir para o menu
                     <span>2</span>
                 </a>
             </li>
             <li>
-                <a accesskey="3" href="#SearchableText" id="link-buscar">
+                <a accesskey="3" href="#portal-searchbox" id="link-buscar">
                     Ir para a busca
                     <span>3</span>
                 </a>
             </li>
             <li>
-                <a accesskey="4" href="#afooter" id="link-rodape">
+                <a accesskey="4" href="#main-footer" id="link-rodape">
                     Ir para o rodap&eacute;
                     <span>4</span>
                 </a>
@@ -111,23 +111,23 @@
         <div id="social-icons">
                 <ul>
                     <li>
-                        <a href="#" title="Facebook">
+                        <a href="https://www.facebook.com/MinisterioDaCultura/?fref=ts" title="Facebook" target="_blank">
                             <img src="/wp-content/uploads/sites/2/2016/08/icone_home_facebook.png" alt="Facebook" />
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Twitter">
+                        <a href="https://twitter.com/culturagovbr" title="Twitter">
                             <img src="/wp-content/uploads/sites/2/2016/08/icone_home_twitter.png" alt="Twitter" />
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Youtube">
+                        <a href="http://www.youtube.com/ministeriodacultura/" title="Youtube">
                             <img src="/wp-content/uploads/sites/2/2016/08/icone_home_youtube.png" alt="Youtube" />
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Flickr">
-                            <img src="/wp-content/uploads/sites/2/2016/08/icone_home_rss.png" alt="RSS" />
+                        <a href="http://www.flickr.com/photos/ministeriodacultura" title="Flickr">
+                            <img src="/wp-content/uploads/sites/2/2016/08/icone_home_rss.png" alt="Flickr" />
                         </a>
                     </li>
                 </ul>
