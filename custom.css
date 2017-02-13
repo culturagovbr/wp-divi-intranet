@@ -323,6 +323,7 @@ color: #FFFFFF;
     margin: 0.83em 0px 1.66em;     
 }
 
+
 .menu-menu-rodape-container {
       border-left: 1px dotted rgb(125, 196, 138);
        padding: 0px 0.3em 0 0.3em;
@@ -344,7 +345,10 @@ color: #FFFFFF;
 #footer-widgets .footer-widget li:before {
     border-style: none;
 }
-
+#footer-widgets .footer-widget li {
+    position: relative;
+    padding-left: 0;
+}
 #footer-widgets .footer-logos {
     margin: 0 0 -20px;
     padding: 2em 0;
