@@ -523,15 +523,19 @@ dl.nav-tree dt {
     background-position: 0px 2px;
     padding-right: 5px;
 }
+
 #searchGadget, #header input.searchButton {
     padding: 0.3em;
-    padding: 4px 15px;
+    padding: 2px 14px;
     border: none;
     background: transparent;
     text-indent: -2000px;
 }
-#searchGadget, .LSBox input.searchButton {
+
+#header input.searchButton {
+    background: url(http://intranet.base-wp.cultura.gov.br//wp-content/themes/wp-divi-intranet/img/sprite.png);
 }
+
 
 
 
@@ -649,7 +653,7 @@ h4.widgettitle {
     margin-bottom: -28px !important;
     top: -73px;
 }
-.et_pb_sidebar_0 {
+.home .et_pb_sidebar_0 {
     background-color: #38759A;
     /* top: -10px; */
     margin-top: -60px;
@@ -667,7 +671,7 @@ h4.widgettitle {
     max-width: 1073px;
 }
 
-#main-content .entry-content {
+.home #main-content .entry-content {
     max-width: 1349px;
     margin: -35px auto;
 }
@@ -722,7 +726,7 @@ h4.widgettitle {
     border: none;
     padding: 0;
     background-image: none;
-    background: url(http://intranet.base-wp.cultura.gov.br//wp-content/themes/wp-divi-intranet/img/sprite.png);
+    background: url("/wp-content/themes/wp-divi-intranet/img/sprite.png");
     background-color: #fff;
     margin-left: 11px;
     display: block;
@@ -740,3 +744,33 @@ h4.widgettitle {
 #social-icons li a[title="Rss"] { background-position: 145px -25px; }
 #social-icons li a[title="Instagram"] { background-position:  69px -49px; }
 #social-icons li a[title="Tumblr"] { background-position: 96px -49px; }
+
+
+form.wpcf7-form input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    padding: 10px;
+    display: block;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+form.wpcf7-form textarea {
+    padding: 4px;
+    display: block;
+    padding: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+form.wpcf7-form label {
+    display: block;
+}
+form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
+    background: #0275d8;
+    padding: 14px;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+}
