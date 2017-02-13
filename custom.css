@@ -836,6 +836,12 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     height: 353px;
     display: block;
 }
+.et_pb_gutters3 .et_pb_column_1_4, .et_pb_gutters3.et_pb_row .et_pb_column_1_4 {
+    width: 23.875%;
+    overflow: hidden;
+    margin-right: 2.5%;
+}
+
     .home .post-content {
         max-height: 72px;
         overflow: hidden;
