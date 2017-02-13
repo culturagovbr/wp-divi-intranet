@@ -711,3 +711,32 @@ h4.widgettitle {
     background-position: 0 1px;
     padding-top: 6px;
 }
+.caixa_internas .item {
+    float: left;
+    margin-right: 37px;
+}
+#social-icons img {
+    opacity: 0;
+}
+#social-icons li a {
+    border: none;
+    padding: 0;
+    background-image: none;
+    background: url(http://intranet.base-wp.cultura.gov.br//wp-content/themes/wp-divi-intranet/img/sprite.png);
+    background-color: #fff;
+    margin-left: 11px;
+    display: block;
+    height: 20px;
+}
+
+
+#social-icons li a[title="Facebook"] { background-position: -80px -25px; }
+#social-icons li a[title="Twitter"] { background-position: -155px -25px; }
+#social-icons li a[title="Youtube"] { background-position: -130px -25px; }
+#social-icons li a[title="Googleplus"] { background-position: -105px -25px;  }
+#social-icons li a[title="Flickr"] { background-position: -105px -25px }
+#social-icons li a[title="Slideshare"] { background-position:  45px 0; }
+#social-icons li a[title="Soundcloud"] { background-position: 20px 0; }
+#social-icons li a[title="Rss"] { background-position: 145px -25px; }
+#social-icons li a[title="Instagram"] { background-position:  69px -49px; }
+#social-icons li a[title="Tumblr"] { background-position: 96px -49px; }
