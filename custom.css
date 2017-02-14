@@ -945,3 +945,20 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
 ul#portal-siteactions {
     display: none ;
 }
+
+form.caixa_login input[type=text], .caixa_login input[type=password] {
+    padding: 10px !important;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    margin-top: 28px;
+    margin-bottom: 34px;
+}
+form.caixa_login input[type="submit"] {
+    padding: 10px;
+    border: 0;
+    background: #1fa99e;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
