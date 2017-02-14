@@ -53,6 +53,7 @@
 		document.documentElement.className = 'js';
 	</script>
 
+
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -101,7 +102,7 @@
                 <a href="/acessibilidade/">Acessibilidade</a>
             </li>
             <li>
-                <a href="#">Alto Contraste</a>
+                <a href="#" class="alto-contraste">Alto Contraste</a>
             </li>
             <li>
                 <a href="#">Mapa do Site</a>
