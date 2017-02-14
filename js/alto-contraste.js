@@ -40,6 +40,7 @@ jQuery.cookie = function (key, value, options) {
 };
 
 jQuery(function() {
+  
   jQuery(".alto_contraste").click(function() {
     var a = jQuery.cookie("contraste_site_class");
     if (a == "contraste_on") {
