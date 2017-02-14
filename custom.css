@@ -959,7 +959,12 @@ form.caixa_login input[type="submit"] {
 }
 
 
-ul#portal-siteactions {
-    display: none ;
+ ul#portal-siteactions {
+    display: block;
+}
+
+.et_right_sidebar #main-content .container:before {
+    border: none;
+    background: transparent;
 }
 
