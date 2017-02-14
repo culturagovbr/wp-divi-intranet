@@ -1,4 +1,5 @@
-.contraste div, .contraste p, .contraste li {
+
+.contraste p {
     background-color: #000 !important;
     color: #fff !important;
 }
@@ -10,4 +11,68 @@
 .contraste header#main-header {
     background: #000;
     border-bottom: 1px solid #fff;
+}
+.contraste article {
+    background: #000;
+}
+.contraste img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.contraste  .et_pb_section.et_pb_section_0.et_section_specialty {
+    background: #000;
+    color: #fff;
+}
+
+.contraste .et_pb_slider .et_pb_slide, .et_pb_section{
+ -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+body.contraste footer#main-footer {
+    background: #000;
+    border-top: 1px solid #fff;
+}
+body.contraste #footer-brasil {
+    background: #000 !important;
+    border-top: 1px solid #fff;
+}
+body.contraste .et_pb_post h2 a, .et_pb_portfolio_item h3 a {
+    text-decoration: none;
+    color: #fff;
+}
+.contraste article.has-post-thumbnail {
+    background: black;
+}
+.contraste #social-icons li a {
+     -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.contraste  #header input.searchButton {
+     -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+.contraste  #accessibility span {
+    padding: 0 3px;
+    background: #5c5c5c;
+    color: #fff;
+}
+ul#portal-siteactions {
+    display: block;
 }
