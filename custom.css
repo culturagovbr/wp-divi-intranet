@@ -622,7 +622,7 @@ input.searchField { -moz-appearance: none; }
     margin-top: -23px;
     min-width: 100px;
 }
-.home h4.widgettitle {
+h4.widgettitle {
     color: #ffffff;
     text-transform: uppercase;
     padding-top: 13px;
@@ -632,16 +632,7 @@ input.searchField { -moz-appearance: none; }
     display: block;
     border-bottom: 1px #2f678a solid;
 }
-h4.widgettitle {
-    color: #2f678a;
-    text-transform: uppercase;
-    padding-top: 13px;
-    font-size: 24px;
-    margin-left: -31px;
-    padding-left: 30px;
-    display: block;
-    border-bottom: 1px #2f678a solid;
-}
+
 .banner-home:hover {
     padding: 0.7em;
 }
@@ -655,7 +646,7 @@ h4.widgettitle {
     margin-bottom: -28px !important;
     top: -73px;
 }
-.home .et_pb_sidebar_0 {
+.et_pb_sidebar_0 {
     background-color: #38759A;
     /* top: -10px; */
     margin-top: -60px;
@@ -899,7 +890,7 @@ form.caixa_login input[type="submit"] {
 
 /*Responsivo*/
 @media (max-width: 980px){
-    .home .et_pb_sidebar_0 {
+    .et_pb_sidebar_0 {
         position: inherit;
         top: 74px;
         display: block;
@@ -968,3 +959,64 @@ form.caixa_login input[type="submit"] {
     background: transparent;
 }
 
+
+
+/*menu lateral principal*/
+#main-content div#acontent {
+    padding: 0;
+    width: 97%;
+    background: #fff;
+}
+#main-content  h4.widgettitle {
+    color: #1869a7;
+    text-transform: uppercase;
+    padding-top: 8px;
+    font-size: 18px;
+    background: #eeeff1;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-bottom: 17px;
+    display: block;
+    border-top: 1px #2f678a solid;
+    border-bottom: 1px solid #ccc;
+}
+
+#main-content .et_pb_widget_area_right {
+    padding-left: 30px;
+    border-left: 0 none;
+}
+#main-content .et_pb_sidebar_0.et_pb_widget_area a {
+    color: #383838 !important;
+    padding-left: 6px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    display: block;
+}
+#main-content .et_pb_widget ul li {
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #d8d8d8;
+    border-left: 0;
+}
+#main-content h4.widgettitle {
+    color: #1869a7 !important;
+    text-transform: uppercase !important;
+    padding-top: 8px !important;
+    font-size: 18px !important;
+    background: #eeeff1 !important;
+    margin-left: 0 !important;
+    padding-left: 10px !important;
+    padding-bottom: 17px !important;
+    display: block !important;
+    border-top: 1px #2f678a solid !important;
+    border-bottom: 1px solid #ccc !important;
+}
+#main-content #sidebar {
+    float: left;
+    width: 23.875%;
+    margin-right: 2.5%;
+}
+#main-content #left-area {
+    width: 72.125%;
+    padding-bottom: 23px;
+    margin-left: 0.6%;
+}
