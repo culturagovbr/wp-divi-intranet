@@ -28,7 +28,7 @@
     color: #fff;
 }
 
-.contraste .et_pb_slider .et_pb_slide, .et_pb_section{
+.contraste .et_pb_slider .et_pb_slide, .contraste .et_pb_section{
  -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
@@ -45,7 +45,7 @@ body.contraste #footer-brasil {
     background: #000 !important;
     border-top: 1px solid #fff;
 }
-body.contraste .et_pb_post h2 a, .et_pb_portfolio_item h3 a {
+body.contraste .et_pb_post h2 a, .contraste  .et_pb_portfolio_item h3 a {
     text-decoration: none;
     color: #fff;
 }
