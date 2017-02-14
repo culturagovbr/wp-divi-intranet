@@ -98,19 +98,17 @@
         </ul>-->
 
         <ul id="portal-siteactions">
-           <!-- 
             <li>
-                <a href="/acessibilidade/">Acessibilidade</a>
+                <a href="/acessibilidade">Acessibilidade</a>
             </li>
-            -->
             <li>
                 <a href="#" class="alto_contraste">Alto Contraste</a>
             </li>
-            <!-- 
+            
             <li>
-                <a href="#">Mapa do Site</a>
+                <a href="/mapa-do-site">Mapa do Site</a>
             </li>
-            -->
+            
         </ul>
 
         <div id="logo-header-tema">
