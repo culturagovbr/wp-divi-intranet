@@ -1027,3 +1027,14 @@ form.caixa_login input[type="submit"] {
     padding-bottom: 23px;
     margin-left: 0.6%;
 }
+.et_pb_video_box {
+    display: block;
+    position: relative;
+    z-index: 1;
+    line-height: 0;
+    background: #000;
+    padding-top: 11px;
+    margin-bottom: -29px !important;
+    max-height: 234px;
+    padding-bottom: 29px;
+}
