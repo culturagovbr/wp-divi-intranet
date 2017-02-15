@@ -814,11 +814,7 @@ form.wpcf7-form input.wpcf7-form-control.wpcf7-submit {
     min-height: 244px;
     padding-bottom: 29px;
 }
-.home .et_pb_row_inner.et_pb_row_inner_2.et_pb_row_1-4_1-4_1-4 {
-    position: relative;
-    top: -28px;
-    margin-bottom: 0;
-}
+
 .servicos {
     margin-top: -38px !important;
     position: relative;
@@ -1037,4 +1033,11 @@ form.caixa_login input[type="submit"] {
     margin-bottom: -29px !important;
     max-height: 234px;
     padding-bottom: 29px;
+}
+
+.home .et_pb_row_inner.et_pb_row_inner_2.et_pb_row_1-4_1-4_1-4 {
+    position: relative;
+    top: -56px;
+    margin-bottom: -56px;
+    margin-top: -42px;
 }
