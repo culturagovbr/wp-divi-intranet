@@ -701,12 +701,19 @@ h4.widgettitle {
     right: 0px !important;
 }
 #top-menu > li:last-child {
-    padding-right: 0;
-    background-image: url("/wp-content/themes/wp-divi-intranet/img/relogio-ponto.svg");
-    padding-left: 29px;
+    background-image: url(/wp-content/themes/wp-divi-intranet/img/relogio-ponto.svg);
     background-repeat: no-repeat;
-    background-position: 0 1px;
-    padding-top: 6px;
+    background-position: 3px 9px;
+    position: relative;
+    padding-top: 14px;
+    padding-left: 29px;
+    background-color: #1866b2;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    left: -6px;
+    height: 41px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #1d2c63;
 }
 .caixa_internas .item {
     float: left;
