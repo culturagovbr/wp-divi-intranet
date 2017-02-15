@@ -18,7 +18,7 @@
 	<?php elegant_canonical(); ?>
 
 	<?php do_action( 'et_head_meta' ); ?>
-
+      <meta name="monitoramento" content="8e78460c071b30b91f50e63a1e787124">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php $template_directory_uri = get_template_directory_uri(); ?>
