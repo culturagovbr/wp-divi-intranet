@@ -24,7 +24,7 @@
 	<?php $template_directory_uri = get_template_directory_uri(); ?>
 
     <!-- Piwik -->
-    <!--script type="text/javascript">
+    <script type="text/javascript">
         var _paq = _paq || [];
         _paq.push(["trackPageView"]);
         _paq.push(["enableLinkTracking"]);
@@ -40,7 +40,7 @@
             g.src = u + "piwik.js";
             s.parentNode.insertBefore(g, s);
         })();
-    </script-->
+    </script>
     <!-- End Piwik Code -->
 
     <!-- Placed at the end of the document so the pages load faster -->
