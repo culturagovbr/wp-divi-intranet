@@ -1188,11 +1188,6 @@ input.txtIndent.btn-logout {
     border-top: 2px solid #ccc;
 }
 
-/*Layout da página */
-.page .et_pb_column_single {
-    padding: 2.855% 0;
-    padding-top: 0;
-}
-.page .et_pb_row_inner.et_pb_row_inner_0 {
-    padding-top: 0;
+.barra-lateral.clearfix:after {
+    content: initial;
 }
