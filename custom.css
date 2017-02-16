@@ -1130,10 +1130,10 @@ form.caixa_login input[type="submit"] {
     clear: both;
     display: block;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: -44px;
     padding-bottom: 18px;
     border-bottom: 1px solid #ccc;
-    margin-top: 20px;
+    margin-top: -4px;
 }
 
 .category-noticias #main-content #left-area {
