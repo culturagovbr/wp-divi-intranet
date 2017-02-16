@@ -650,20 +650,7 @@ h4.widgettitle {
     margin-bottom: -28px !important;
     top: -73px;
 }
-.et_pb_sidebar_0 {
-    background-color: #38759A;
-    /* top: -10px; */
-    margin-top: -60px;
-    /* margin-bottom: 16px; */
-    z-index: 2;
-    position: absolute;
-    /* top: -114px; */
-    left: 0px;
-    -moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
-    border-radius: 7px;
-    width: 244px;
-}
+
 #main-content > .container {
     max-width: 1073px;
 }
