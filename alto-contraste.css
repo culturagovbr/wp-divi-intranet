@@ -89,3 +89,18 @@ body.contraste li.current_page_item a {
 .contraste a {
     color: #fff;
 }
+.contraste #top-menu > li:last-child {
+    background-image: url(/wp-content/themes/wp-divi-intranet/img/relogio-ponto.svg);
+    background-repeat: no-repeat;
+    background-position: 3px 9px;
+    position: relative;
+    padding-top: 14px;
+    padding-left: 29px;
+    background-color: #4c5156;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    left: -6px;
+    height: 41px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #888888;
+}
