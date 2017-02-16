@@ -365,7 +365,11 @@ color: #FFFFFF;
 .et_pb_gutters3.et_pb_footer_columns4 .footer-widget {
    width: 25%;
 }
-
+.et_pb_image_container img, .et_pb_post a img {
+    max-width: 100%;
+    vertical-align: bottom;
+    border-radius: 4px;
+}
 
 #footer-widgets .logo-brasil img { float: right; }
 
@@ -1113,6 +1117,7 @@ form.caixa_login input[type="submit"] {
 }
 .category-noticias article h2.entry-title {
     font-size: 21px;
+    color: #1866b2;
 }
 .category-noticias #left-area .post-meta {
     padding-bottom: 0;
