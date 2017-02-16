@@ -940,9 +940,53 @@ form.caixa_login input[type="submit"] {
     height: 108px;
     min-height: 144px;
     }
+    .mobile_menu_bar:after {
+    display: block;
+    content: "MENU";
+    position: absolute;
+    z-index: 20600;
+    TOP: 4px;
+    FONT-SIZE: 20PX;
+    color: #2ea3f2;
+    RIGHT: 37px;
+}
+}
+@media (max-width: 700px){
+    ul#portal-siteactions {
+        display: none;
+    }
+    #main-header {
+    background-color: #2c4499;
+    height: 50px;
+    }
+    .mobile_menu_bar:before {
+    position: relative;
+    top: -11px;
+    left: 0;
+    font-size: 32px;
+    content: "\61";
+    cursor: pointer;
+
+}
+.et_mobile_menu {
+    display: none;
+    visibility: visible;
+    position: absolute;
+    margin-top: 0;
+    z-index: 9999;
+    left: 0;
+    TOP: 50px;
+    width: 100%;
+    padding: 5%;
+    border-top: 3px solid #2ea3f2;
+    opacity: 1;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
+}
  ul#portal-siteactions {
     display: block;
 }

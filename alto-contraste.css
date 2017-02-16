@@ -86,3 +86,6 @@ body.contraste li.current_page_item a {
 .contraste h1.entry-title.main_title {
     color: #fff;
 }
+.contraste a {
+    color: #fff;
+}
