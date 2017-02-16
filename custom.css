@@ -1025,6 +1025,7 @@ form.caixa_login input[type="submit"] {
     margin-bottom: 0.5em;
     border-bottom: 1px solid #d8d8d8;
     border-left: 0;
+    border-right: 0;
 }
 #main-content .et_pb_widget ul li a {
     display: block;
@@ -1072,7 +1073,17 @@ form.caixa_login input[type="submit"] {
 }
 
 
-
+.et_pb_column_single .barra-lateral h5.widgettitle {
+    background: #eeeff1;
+    padding-left: 8px;
+    padding-top: 12px;
+    margin-top: 6px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #1866b2;
+    font-size: 14px;
+    border-top: 1px solid #1074bc;
+}
 
 
 .et_pb_video_box {
