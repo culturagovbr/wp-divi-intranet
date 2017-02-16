@@ -46,6 +46,7 @@
 
 							<?php if ( ! in_array( $post_format, array( 'link', 'audio', 'quote' ) ) ) : ?>
 								<?php if ( ! in_array( $post_format, array( 'link', 'audio' ) ) ) : ?>
+									<div class="col-md-9">
 									<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 								<?php endif; ?>
 
@@ -59,7 +60,7 @@
 									}
 								?>
 							<?php endif; ?>
-
+									</div>
 								</article> <!-- .et_pb_post -->
 						<?php
 								endwhile;
