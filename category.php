@@ -35,7 +35,7 @@
 											$first_video
 										);
 									elseif ( ! in_array( $post_format, array( 'gallery' ) ) && 'on' === et_get_option( 'divi_thumbnails_index', 'on' ) && '' !== $thumb ) : ?>
-										<a href="<?php the_permalink(); ?>">
+										<a href="<?php the_permalink(); ?>" class="col-md-3">
 											<?php print_thumbnail( $thumb, $thumbnail["use_timthumb"], $titletext, $width, $height ); ?>
 										</a>
 								<?php
@@ -47,7 +47,7 @@
 							<?php if ( ! in_array( $post_format, array( 'link', 'audio', 'quote' ) ) ) : ?>
 								<?php if ( ! in_array( $post_format, array( 'link', 'audio' ) ) ) : ?>
 									<div class="col-md-9">
-									<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+									<h2 class="entry-title"><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h2>
 								<?php endif; ?>
 
 								<?php

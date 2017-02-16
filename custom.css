@@ -1088,3 +1088,44 @@ form.caixa_login input[type="submit"] {
     min-height: 234px;
     margin-bottom: -30px !important;
 }
+
+/*Página categoria noticia*/
+
+.category-noticias article .col-md-9 {
+    width: 70%;
+    display: block;
+    float: left;
+}
+
+.category-noticias article  a.col-md-3 {
+    width: 29%;
+    display: block;
+    float: left;
+    margin-right: 1%;
+}
+
+.category-noticias article #main-content #left-area {
+    width: 72.125%;
+    padding-bottom: 23px;
+    margin-left: 0.6%;
+    margin-right: 0;
+    padding-right: 0;
+}
+.category-noticias article h2.entry-title {
+    font-size: 21px;
+}
+.category-noticias #left-area .post-meta {
+    padding-bottom: 0;
+    font-size: 10px;
+    margin-top: -9px;
+}
+.category-noticias article:after {
+    content: " ";
+    clear: both;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 20px;
+}
