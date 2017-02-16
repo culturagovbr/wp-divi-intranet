@@ -1058,11 +1058,13 @@ form.caixa_login input[type="submit"] {
 }
 
 /*Barra Lateral*/
+
 .et_pb_column_single .barra-lateral {
     padding-left: 0;
     border-left: 0 none;
+    border: 0;
     background: white;
-    width: 97%;
+    width: 109%;
 }
 .et_pb_column_single .barra-lateral ul li a {
     display: block;
@@ -1073,7 +1075,7 @@ form.caixa_login input[type="submit"] {
 }
 
 
-.et_pb_column_single .barra-lateral h5.widgettitle {
+.et_pb_column_single  h5.widgettitle {
     background: #eeeff1;
     padding-left: 8px;
     padding-top: 12px;
