@@ -1038,6 +1038,12 @@ form.caixa_login input[type="submit"] {
     border-bottom: 1px solid #d8d8d8;
     border-left: 0;
 }
+#main-content .et_pb_widget ul li a {
+    display: block;
+    padding-left: 6px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+}
 #main-content h4.widgettitle {
     color: #1869a7 !important;
     text-transform: uppercase !important;
