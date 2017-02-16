@@ -1118,6 +1118,7 @@ form.caixa_login input[type="submit"] {
 .category-noticias article h2.entry-title {
     font-size: 21px;
     color: #1866b2;
+    margin-top: 0 !important;
 }
 .category-noticias #left-area .post-meta {
     padding-bottom: 0;
@@ -1133,4 +1134,9 @@ form.caixa_login input[type="submit"] {
     padding-bottom: 18px;
     border-bottom: 1px solid #ccc;
     margin-top: 20px;
+}
+
+.category-noticias #main-content #left-area {
+    padding-right: 0;
+    margin-right: 0;
 }
