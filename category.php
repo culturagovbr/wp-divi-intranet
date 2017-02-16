@@ -46,7 +46,7 @@
 
 							<?php if ( ! in_array( $post_format, array( 'link', 'audio', 'quote' ) ) ) : ?>
 								<?php if ( ! in_array( $post_format, array( 'link', 'audio' ) ) ) : ?>
-									<div class="col-md-9">
+                                                                        <div <?php if ($thumb != '') { ?>class="col-md-9"<?php } ?>
 									<h2 class="entry-title"><a href="<?php the_permalink(); ?>" ><?php the_title(); ?></a></h2>
 								<?php endif; ?>
 
