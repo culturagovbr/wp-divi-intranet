@@ -1167,3 +1167,22 @@ form.caixa_login input[type="submit"] {
     padding-right: 0;
     margin-right: 0;
 }
+
+
+/*Botão sair*/
+input.txtIndent.btn-logout {
+    float: right;
+    border-radius: 0 0 4px 4px;
+    border: 0;
+    padding: 10px;
+    margin-right: 1px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 1px #8a8a8a;
+    color: #797979;
+    margin-top: -2px;
+}
+.container-logout {
+    border-bottom: 0;
+    height: 39px;
+    border-top: 2px solid #ccc;
+}
