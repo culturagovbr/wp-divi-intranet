@@ -104,3 +104,13 @@ body.contraste li.current_page_item a {
     border-radius: 4px;
     box-shadow: 1px 1px 1px #888888;
 }
+.contraste #main-content .et_pb_sidebar_0.et_pb_widget_area a {
+    color: #fff !important;
+}
+.contraste article {
+    background: #000 !important;
+}
+.contraste h1.entry-title {
+    color: #fff;
+    background: #000;
+}
