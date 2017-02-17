@@ -1256,3 +1256,14 @@ input.txtIndent.btn-logout {
     display: block;
     max-width: 88%;
 }
+/*Icones da lateral*/
+#text-8 .et_pb_module {
+    margin-bottom: 0 !important;
+}
+#text-8 .et_pb_module a {
+    color: #383838 !important;
+    padding-left: 6px;
+     padding-top: 4px; 
+     padding-bottom: 6px; 
+    display: block;
+}
