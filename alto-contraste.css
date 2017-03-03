@@ -85,3 +85,29 @@ body.contraste li.current_page_item a {
     color: #fff;
     background: #000;
 }
+.contraste .et_pb_text h3 {
+    color: #fff;
+}
+.contraste #main-content h4.widgettitle {
+    background: none repeat scroll 0 0 #4c5156 !important;
+    border-color: #fff;
+    color: #fff !important;
+}
+
+.contraste #header img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+.contraste #main-footer img {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
