@@ -117,7 +117,7 @@
         <div id="social-icons">
                 <ul>
                     <li>
-                        <a href="https://www.facebook.com/MinisterioDaCultura/?fref=ts" title="Facebook" target="_blank">
+                        <a href="https://www.facebook.com/SecretariaEspecialDaCultura/" title="Facebook" target="_blank">
                             <img src="/wp-content/uploads/sites/2/2016/08/icone_home_facebook.png" alt="Facebook" />
                         </a>
                     </li>
